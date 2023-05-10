@@ -6,8 +6,24 @@
 >
   <div class="container d-flex align-items-center justify-content-between">
     <h1 class="logo"><a href="index.html">Hussmey</a></h1>
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+    <div class="continer">
+      <div
+        class="row cardsss d-flex align-items-center d-flex justify-content-center"
+      >
+        <div class="col-sm-12 text-white d-flex justify-content-center">
+          <p class="temp-p">{{ city }} <br />{{ weatherTime }}</p>
+          <p class="ms-2 py-3">{{ tempretre }}</p>
+          <img class="imgIcon" src="{{ weatherIcon }}" alt="weatherIcon" />
+          <!-- <p class="temp-p">{{ weatherTime }}</p> -->
+        </div>
+        <!-- <div class="col-sm-6">
+          <p class="location-p">
+            <img src="{{ weatherIcon }}" alt="weatherIcon" />
+          </p>
+        </div> -->
+      </div>
+    </div>
 
     <nav id="navbar" class="navbar">
       <ul>
@@ -25,3 +41,7 @@
   </div>
 </header>
 <!-- End Header -->
+
+<!-- start card weather -->
+
+<!-- end card weather -->

@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { FormsModule, NgForm } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { WeatherfaceComponent } from './weatherface/weatherface.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
     TminsialSectionComponent,
     BlogComponent,
     ContactComponent,
-    UpToUpComponent
+    UpToUpComponent,
+    WeatherfaceComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule, 
     HttpClientModule
   ],
-  providers: [NgForm],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
