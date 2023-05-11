@@ -8,8 +8,8 @@
 .cardsss{
   width: 160px !important;
   height: 50px !important;
-  border: 2px solid #fff;
-  border-radius: 0% 10% / 10% 40%;
+  /* border: 2px solid #fff;
+  border-radius: 0% 10% / 10% 40%; */
 }
 .imgIcon{
   width: 50px;

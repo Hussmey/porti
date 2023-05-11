@@ -1,0 +1,52 @@
+.pppp{
+    position: absolute;
+    top: 72% !important;
+    right: 0 !important;
+}
+
+.images{
+    width: 160px ;
+    height: 160px;
+}
+.img-left-right{
+    width: 50px ;
+    height: 60px;
+}
+.carousel-item{
+    height: 400px !important;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 14px;
+    color: black;
+    padding: 50px;
+}
+.divImage{
+    width: 170px ;
+    height: 170px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: azure;
+}
+@media (max-width: 991.98px) {
+    .carousel-item{
+        height: 380px !important;
+    }
+  }
+
+  /* Font size for smaller screens */
+@media (max-width: 768px) {
+    .carousel-item{
+        height: 380px !important;
+    }
+
+  }
+  
+  /* Font size for even smaller screens */
+  @media (max-width: 480px) {
+
+        .carousel-item{
+            height: 380px !important;
+        }
+  
+  }
